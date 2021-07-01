@@ -7,5 +7,5 @@
 # with an R script added that was called.
 # http://mazamascience.com/WorkingWithData/?p=728 under 'nstalling packages' was useful for learning about altenatives that
 # would work at shell script, see '$ R CMD INSTALL # at the shell prompt', but since need devtools too easier to use R the
-# way I'm trying.
+# way I'm trying. Later found https://github.com/matthewfeickert/R-in-Jupyter-with-Binder/blob/master/binder/postBuild used a similar way.
 Rscript more_installs.R

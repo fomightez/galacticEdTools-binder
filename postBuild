@@ -5,4 +5,7 @@
 # without them R complained.
 # Calling the R script and installing additional packages worked out by testing in terminal launched from https://github.com/binder-examples/r-conda
 # with an R script added that was called.
+# http://mazamascience.com/WorkingWithData/?p=728 under 'nstalling packages' was useful for learning about altenatives that
+# would work at shell script, see '$ R CMD INSTALL # at the shell prompt', but since need devtools too easier to use R the
+# way I'm trying.
 Rscript more_installs.R

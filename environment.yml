@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - r-base=4.1
+  - r-base=3.6
   - r-tidyverse
   - r-devtools
   - r-taxize

@@ -1,0 +1,21 @@
+name: galacticEdTools-binderized
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.1
+  - r-tidyverse
+  - r-devtools
+  - r-taxize
+  - r-ggplot2
+  - r-wikipedir
+  - r-magick
+  - r-biocmanager
+  - r-fs
+  - r-ggimage
+  - r-pbapply 
+  - r-rotl
+  - r-remotes
+  - r-rvest
+  - r-lifecycle
+  - bioconductor-ggtree

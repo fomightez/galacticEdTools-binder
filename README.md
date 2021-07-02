@@ -59,8 +59,10 @@ For those who prefer to work in RStudio, use the following badge to launch the s
 
 
 The galacticEdTools package will already be installed there, and you just need to load it into the session as usual.  
-You can run the `orcas_chronogram_generator.R` script as a test by opening the script `orcas_chronogram_generator.R` using `File` > `Open File` and selecting `orcas_chronogram_generator.R` from the list. Then press `Run` in upper right corner of the panel where the script opens. It will run and after a minute or so the plot will show up automatically in the lower right panel under the 'Plots' tab.  
-DOES THIS WORK AS ALTERNATIVE IN FRESH LAUNCH?!?!? You can run the `orcas_chronogram_generator.R` script as a test by entering `source("orcas_chronogram_generator.R")` in the console that comes up in RStudio. (see http://www.rexamples.com/8/How%20to%20run%20the%20code )
+You can run the `orcas_chronogram_generator.R` script as a test by opening the script `orcas_chronogram_generator.R` using `File` > `Open File` and selecting `orcas_chronogram_generator.R` from the list. Then when the script opens click in the panel showing it, highlight all the text in the panel, and then click `Run` in the upper right side of that panel. It will run and after a minute or so the plot will show up automatically in the lower right panel under the 'Plots' tab.  
+
+There are some scripts for making variations of 'cats' phylogenies provided as well.
+
 
 
 

@@ -8,11 +8,11 @@ Click the `launch binder` badge above to run the galacticEdTools package in R ri
 
 ***Matt Wilkins' galacticEdTools package working in your browser***
 
-This repository is for running the R-based-based galacticEdTools package in a browser-based environment provided by [MyBinder.org](https://mybinder.org/).  
+This repository is for running the R-based-based [galacticEdTools](https://galacticpolymath.github.io/galacticEdTools/) package in a browser-based environment provided by [MyBinder.org](https://mybinder.org/).  
 
-galacticEdTools is an open source R package by Matt Wilkins to support K-16 education and scicomm. The code was developed by [Galactic Polymath Education Studio](https://www.galacticpolymath.com/)
+[galacticEdTools](https://galacticpolymath.github.io/galacticEdTools/) is an open source R package by Matt Wilkins to support K-16 education and scicomm. The code was developed by [Galactic Polymath Education Studio](https://www.galacticpolymath.com/)
 
-See [here](https://galacticpolymath.github.io/galacticEdTools/) for more about it.
+See [here](https://galacticpolymath.github.io/galacticEdTools/) for more about the package.
 
 
 
@@ -21,7 +21,7 @@ See [here](https://galacticpolymath.github.io/galacticEdTools/) for more about i
 Software
 --------
 
-Matt Wilkins' galacticEdTools package https://galacticpolymath.github.io/galacticEdTools/ working via the [Binder system](https://mybinder.org). With no need for the end user to install or set up anything.
+Matt Wilkins' [galacticEdTools](https://galacticpolymath.github.io/galacticEdTools/) package working via the [Binder system](https://mybinder.org). With no need for the end user to install or set up anything.
 
 Technical Details
 -----------------
@@ -29,6 +29,10 @@ Technical Details
 This repository is set up to make use of the binder service offered by [MyBinder.org](https://mybinder.org/). See their site for more information about Binder.
 
 Packages that had to be added are summarized [here](https://galacticpolymath.github.io/galacticEdTools/)) and listed in full [here](https://github.com/galacticpolymath/galacticEdTools/blob/main/DESCRIPTION), with the exception of `phylopic` not being in the full list(?).
+
+
+Using r-base 4.1 by placing `- r-base=4.1` in the `environment.yml`, I got complaints about irkernel not matching and that it needs something between R 3.5 and 3.6. I found [this suggest](https://github.com/jupyterhub/repo2docker/issues/887#issuecomment-634818488) and that seemed to presumably install at least R version 4 something and not complain. I'm trying to see if I really need 4.1 before worrying further what version of 4 it is.  
+When using RStudio, but not the R kernel in Jupyter, I saw an error that seemed identical to one reported [here](https://discourse.jupyter.org/t/glibcxx-3-4-26-not-found-from-rstudio/7778/8?u=fomightez) in relation to trying to bring in the `datelife` package. I added the `start` file with those suggested contents nd that fixed it for me, too.
 
 
 

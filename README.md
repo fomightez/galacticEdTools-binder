@@ -32,7 +32,7 @@ Packages that had to be added are summarized [here](https://galacticpolymath.git
 
 
 Using r-base 4.1 by placing `- r-base=4.1` in the `environment.yml`, I got complaints about irkernel not matching and that it needs something between R 3.5 and 3.6. I found [this suggest](https://github.com/jupyterhub/repo2docker/issues/887#issuecomment-634818488) and that installed R version 4.0.5 (2021-03-31) -- "Shake and Throw", and most importantly, did not complain. I'm trying to see if I really need 4.1 before worrying further for now.  
-When using RStudio, but not the R kernel in Jupyter, I saw an error that seemed identical to one reported [here](https://discourse.jupyter.org/t/glibcxx-3-4-26-not-found-from-rstudio/7778/8?u=fomightez) in relation to trying to bring in the `datelife` package. I added the `start` file with those suggested contents and that fixed it for me, too, as now running `library(datelife)` in RStudio works for me.
+When using RStudio, but not the R kernel in Jupyter, I saw an error that seemed identical to one reported [here](https://discourse.jupyter.org/t/glibcxx-3-4-26-not-found-from-rstudio/7778/8?u=fomightez) in relation to trying to bring in the `datelife` package. I added the `start` file with those suggested contents and that fixed it for me, too, as now running `library(datelife)` in RStudio works without an error.
 
 
 

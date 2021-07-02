@@ -46,7 +46,7 @@ Technical Details
 
 This repository is set up to make use of the binder service offered by [MyBinder.org](https://mybinder.org/). See their site for more information about Binder.
 
-Packages that had to be added are summarized [here](https://galacticpolymath.github.io/galacticEdTools/)) and listed in full [here](https://github.com/galacticpolymath/galacticEdTools/blob/main/DESCRIPTION), with the exception of `phylopic` not being in the full list(?).
+Packages that had to be added are summarized [here](https://galacticpolymath.github.io/galacticEdTools/) and listed in full [here](https://github.com/galacticpolymath/galacticEdTools/blob/main/DESCRIPTION), with the exception of `phylopic` not being in the full list(?).
 
 
 Using r-base 4.1 by placing `- r-base=4.1` in the `environment.yml`, I got complaints about irkernel not matching and that it needs something between R 3.5 and 3.6. I found [this suggest](https://github.com/jupyterhub/repo2docker/issues/887#issuecomment-634818488) and that installed R version 4.0.5 (2021-03-31) -- "Shake and Throw", and most importantly, did not complain. I'm trying to see if I really need 4.1 before worrying further for now.  

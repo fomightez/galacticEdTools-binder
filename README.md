@@ -37,7 +37,7 @@ DOES THIS WORK AS ALTERNATIVE IN FRESH LAUNCH?!?!? You can run the `orcas_chrono
 License
 -------
 
-The alacticEdTools package is under MIT license, see the license in the official repo [here](https://github.com/galacticpolymath/galacticEdTools/blob/main/LICENSE.md).
+The galacticEdTools package is under MIT license, see the license in the official repo [here](https://github.com/galacticpolymath/galacticEdTools/blob/main/LICENSE.md).
 
 
 Technical Details
